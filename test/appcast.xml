@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>婚礼工作站测试版更新</title>
+    <link>https://github.com/guozuguang123-droid/WeddingWorkbench-Updates</link>
+    <description>测试通道已启用，目前尚未发布可安装的测试版更新。</description>
+    <language>zh-cn</language>
+    <!-- Keep this feed available even before the first test release.
+         Only test-channel items signed with the test key belong here. -->
+  </channel>
+</rss>
