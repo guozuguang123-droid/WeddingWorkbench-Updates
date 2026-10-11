@@ -3,23 +3,23 @@
     <channel>
         <title>婚礼工作站</title>
         <item>
-            <title>3.6.1</title>
-            <pubDate>Sun, 11 Oct 2026 17:14:55 +0800</pubDate>
+            <title>3.6.2</title>
+            <pubDate>Sun, 11 Oct 2026 22:41:08 +0800</pubDate>
             <sparkle:channel>stable</sparkle:channel>
-            <sparkle:version>3.6.1</sparkle:version>
-            <sparkle:shortVersionString>3.6.1</sparkle:shortVersionString>
+            <sparkle:version>3.6.2</sparkle:version>
+            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text">婚礼工作站 3.6.1 正式候选版
+            <description sparkle:format="plain-text">婚礼工作站 3.6.2
 
-采用 2026-10-11 最新业务源码，包含照片筛选、人脸批量分析优化、切图缩放与位置保留、八参数调色与裁剪、快速锁片、JPG 导出和婚礼组图。
-最低系统 macOS 14.0，仅 Apple Silicon。
-新增正式 Sparkle 手动更新通道：仅在顶部菜单点击“检查更新…”后检查，用户确认后下载安装。
-3.6.1 与 3.6.0 使用同一业务源码，用于验证完整在线升级链。
-当前采用 ad-hoc 应用签名，未通过 Developer ID 签名或 Apple 公证。跨设备安装尚未验证。
-此包为候选验收包，尚未宣布正式发行成功。
+修复重新导入照片时人工保留/废弃标记和调色参数被重置。
+修复长幅照片预览缩小时的取样混叠和非整数边界偏差，保持原有分辨率和导出质量。
+退出时等待后台照片任务及锁片写入结束，确认工作区和组图状态保存成功。
+保留现有三个模块、手动 Sparkle 更新机制及正式 EdDSA 密钥。
+
+最低 macOS 14.0，仅 Apple Silicon。沿用既有 ad-hoc App 签名；未取得 Developer ID 和 Apple 公证，首次安装可能受到 Gatekeeper 限制，升级后可能需要再次允许文稿访问。
 </description>
-            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.1/WeddingWorkbench-3.6.1-macOS-arm64.zip" length="99108114" type="application/octet-stream" sparkle:edSignature="ZKEEGOLf4aXwaarrz7DhHhXRshVg1JPG0YR2Q+HbG2RCFObzpgl4KM6s2BYG0ONkLtUbd2LFBWnsopeNl7OdBQ==" />
+            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.2/WeddingWorkbench-3.6.2-macOS-arm64.zip" length="99138997" type="application/octet-stream" sparkle:edSignature="5L+OF/JkEJHHtP99ye4jUiZvJE+NFpXTW3h8bH6/QUJ/DBywOAAAqElTbUouLjx6ebaRP5Ha+bZWZLOP6EglBw==" />
         </item>
     </channel>
 </rss>
