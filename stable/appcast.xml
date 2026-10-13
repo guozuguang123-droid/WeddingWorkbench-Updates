@@ -3,23 +3,23 @@
     <channel>
         <title>婚礼工作站</title>
         <item>
-            <title>3.6.2</title>
-            <pubDate>Sun, 11 Oct 2026 22:41:08 +0800</pubDate>
+            <title>3.6.3</title>
+            <pubDate>Tue, 13 Oct 2026 21:47:07 +0800</pubDate>
             <sparkle:channel>stable</sparkle:channel>
-            <sparkle:version>3.6.2</sparkle:version>
-            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
+            <sparkle:version>3.6.3</sparkle:version>
+            <sparkle:shortVersionString>3.6.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text">婚礼工作站 3.6.2
+            <description sparkle:format="plain-text">婚礼工作站 3.6.3
 
-修复重新导入照片时人工保留/废弃标记和调色参数被重置。
-修复长幅照片预览缩小时的取样混叠和非整数边界偏差，保持原有分辨率和导出质量。
-退出时等待后台照片任务及锁片写入结束，确认工作区和组图状态保存成功。
-保留现有三个模块、手动 Sparkle 更新机制及正式 EdDSA 密钥。
+婚礼组图新增两张内置底图，通过下拉箭头选择并随项目保存。
+分别适配两张底图的顶部 Logo 间距，底图 1 的底部 Logo 保留独立区域，照片不会遮挡。
+组图状态、进度条和取消按钮移至顶部工具栏左侧，与照片筛选布局对齐。
+已有组图请重新点击“开始组图”以更新预览。
 
-最低 macOS 14.0，仅 Apple Silicon。沿用既有 ad-hoc App 签名；未取得 Developer ID 和 Apple 公证，首次安装可能受到 Gatekeeper 限制，升级后可能需要再次允许文稿访问。
+最低 macOS 14.0，仅 Apple Silicon。沿用现有 Sparkle 正式更新密钥和 ad-hoc App 签名，未取得 Developer ID 与 Apple 公证。
 </description>
-            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.2/WeddingWorkbench-3.6.2-macOS-arm64.zip" length="99138997" type="application/octet-stream" sparkle:edSignature="5L+OF/JkEJHHtP99ye4jUiZvJE+NFpXTW3h8bH6/QUJ/DBywOAAAqElTbUouLjx6ebaRP5Ha+bZWZLOP6EglBw==" />
+            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.3/WeddingWorkbench-3.6.3-macOS-arm64.zip" length="99325968" type="application/octet-stream" sparkle:edSignature="Fy1Fuoy1RCPgXgWPaA67mTD14WnMtMtt0Y/OOQRvJ/Hk2Ikwj3s/jGctY7a6JOxtzE9I/fqTBpuTUSSaIflkAw==" />
         </item>
     </channel>
 </rss>
