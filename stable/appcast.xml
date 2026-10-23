@@ -3,25 +3,23 @@
     <channel>
         <title>婚礼工作站</title>
         <item>
-            <title>3.6.4</title>
-            <pubDate>Wed, 14 Oct 2026 12:09:02 +0800</pubDate>
+            <title>3.6.5</title>
+            <pubDate>Fri, 23 Oct 2026 15:02:48 +0800</pubDate>
             <sparkle:channel>stable</sparkle:channel>
-            <sparkle:version>3.6.4</sparkle:version>
-            <sparkle:shortVersionString>3.6.4</sparkle:shortVersionString>
+            <sparkle:version>3.6.5</sparkle:version>
+            <sparkle:shortVersionString>3.6.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text">婚礼工作站 3.6.4
-
-婚礼组图支持拖动期间实时交换预览，照片使用平滑弹性动画让位，松开鼠标后才正式提交。
-照片内部执行内容交换；有效夹缝支持单张插入、整行重排和 2+1 与 1+2 双向切换。
-横版照片必须独占一行。两张单行竖图可以在上下夹缝合排，实现“横－竖－竖”变为“横－竖竖”。
-Esc 或拖离有效区域取消未提交预览；保存和最终导出使用一致布局。
-已有横图混排的单张组图需重新生成，旧错误布局会被拦截导出。
-
-最低 macOS 14.0，仅 Apple Silicon。沿用现有正式更新通道、签名与输出质量。
-本机编译、签名、组图回归及实际鼠标合排和 UI 导出已验证。物理鼠标按住同时按 Esc、GPU 专项、跨设备安装和在线升级安装尚未验证。
+            <description sparkle:format="plain-text">&lt;h2&gt;照片筛选导出优化&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;导出到已有数字文件夹的目录时，自动接续最大编号。&lt;/li&gt;
+&lt;li&gt;最后一个文件夹不足 500 张时先补满，再创建下一个编号文件夹。&lt;/li&gt;
+&lt;li&gt;按成功导出数量计算容量，失败照片不占名额；保留同名文件加后缀的防覆盖处理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;仅统计文件夹内直接存放的 JPG/JPEG 文件，不自动去重或重新整理旧照片。&lt;/p&gt;
+&lt;p&gt;适用于 Apple Silicon Mac，最低 macOS 14.0。&lt;/p&gt;
 </description>
-            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.4/WeddingWorkbench-3.6.4-macOS-arm64.zip" length="99398515" type="application/octet-stream" sparkle:edSignature="hvynRSUbqpu48WdjTsMVQAux1NrR9w0mSeFGGDxMOrF7GYE/0cFlwnP222PyYsjlq5GRbf9lcfrV6A+z5ia3DA==" />
+            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.5/WeddingWorkbench-3.6.5-macOS-arm64.zip" length="99405670" type="application/octet-stream" sparkle:edSignature="DZnKSHR/+gzetoMeNF6h8SJ7jxEp+Vusmb7c7Wx6P9eZz32fusvWG9yvL9xUM2yxO+d8tyoSCD17gTShPkcbDw==" />
         </item>
     </channel>
 </rss>
