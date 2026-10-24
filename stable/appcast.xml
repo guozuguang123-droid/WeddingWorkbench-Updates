@@ -3,23 +3,25 @@
     <channel>
         <title>婚礼工作站</title>
         <item>
-            <title>3.6.5</title>
-            <pubDate>Fri, 23 Oct 2026 15:02:48 +0800</pubDate>
+            <title>3.6.6</title>
+            <pubDate>Sat, 24 Oct 2026 14:51:57 +0800</pubDate>
             <sparkle:channel>stable</sparkle:channel>
-            <sparkle:version>3.6.5</sparkle:version>
-            <sparkle:shortVersionString>3.6.5</sparkle:shortVersionString>
+            <sparkle:version>3.6.6</sparkle:version>
+            <sparkle:shortVersionString>3.6.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text">&lt;h2&gt;照片筛选导出优化&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;导出到已有数字文件夹的目录时，自动接续最大编号。&lt;/li&gt;
-&lt;li&gt;最后一个文件夹不足 500 张时先补满，再创建下一个编号文件夹。&lt;/li&gt;
-&lt;li&gt;按成功导出数量计算容量，失败照片不占名额；保留同名文件加后缀的防覆盖处理。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;仅统计文件夹内直接存放的 JPG/JPEG 文件，不自动去重或重新整理旧照片。&lt;/p&gt;
-&lt;p&gt;适用于 Apple Silicon Mac，最低 macOS 14.0。&lt;/p&gt;
+            <description sparkle:format="plain-text">婚礼工作站 3.6.6
+
+照片筛选
+- 修复检测到 6 张及更多人脸时，最后一排缩略图被固定高度截断的问题；人脸区域按实际行数展开，空间不足时可在右侧面板滚动查看。
+- 导出 JPG 新增“导出顺序”：默认按拍摄时间，也可按完整文件名排序。字母前缀参与排序，例如先 gzg001、gzg002，再 zzf001、zzf002；同一前缀内按数字自然顺序排列。
+- 保留每组 500 张、接续已有编号、补满最后一组和同名文件避让规则。只排列本批导出，已有照片不重排。
+
+说明
+- 拍摄时间缺失时使用文件修改时间；相机时钟不同步时无法保证真实事件先后。
+- 最低 macOS 14.0，仅支持 Apple Silicon。沿用 ad-hoc 签名，尚未提供 Apple Developer ID 签名与公证。
 </description>
-            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.5/WeddingWorkbench-3.6.5-macOS-arm64.zip" length="99405670" type="application/octet-stream" sparkle:edSignature="DZnKSHR/+gzetoMeNF6h8SJ7jxEp+Vusmb7c7Wx6P9eZz32fusvWG9yvL9xUM2yxO+d8tyoSCD17gTShPkcbDw==" />
+            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.6/WeddingWorkbench-3.6.6-macOS-arm64.zip" length="99427990" type="application/octet-stream" sparkle:edSignature="x5WG7/Xvrn7GDViu66nqBpHFJK/EZHeuGujpVSQA5WFAinSGBhJ7Bqc7YNqGWwvkVVlqtlUNYYdW129YmEQOAQ==" />
         </item>
     </channel>
 </rss>
