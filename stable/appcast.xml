@@ -3,25 +3,27 @@
     <channel>
         <title>婚礼工作站</title>
         <item>
-            <title>3.6.6</title>
-            <pubDate>Sat, 24 Oct 2026 14:51:57 +0800</pubDate>
+            <title>3.6.7</title>
+            <pubDate>Mon, 26 Oct 2026 13:07:09 +0800</pubDate>
             <sparkle:channel>stable</sparkle:channel>
-            <sparkle:version>3.6.6</sparkle:version>
-            <sparkle:shortVersionString>3.6.6</sparkle:shortVersionString>
+            <sparkle:version>3.6.7</sparkle:version>
+            <sparkle:shortVersionString>3.6.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text">婚礼工作站 3.6.6
+            <description sparkle:format="plain-text">婚礼工作站 3.6.7
 
 照片筛选
-- 修复检测到 6 张及更多人脸时，最后一排缩略图被固定高度截断的问题；人脸区域按实际行数展开，空间不足时可在右侧面板滚动查看。
-- 导出 JPG 新增“导出顺序”：默认按拍摄时间，也可按完整文件名排序。字母前缀参与排序，例如先 gzg001、gzg002，再 zzf001、zzf002；同一前缀内按数字自然顺序排列。
-- 保留每组 500 张、接续已有编号、补满最后一组和同名文件避让规则。只排列本批导出，已有照片不重排。
+- 人脸分析期间可切换照片、缩放查看，并用 Z／X 标记保留或废弃；分析结果逐张补入。
+- 取消分析保留已完成结果及人工选择，重新打开未完成工作区可继续分析。整批完成后保留当前查看位置、缩放及编辑结果。
+- 照片清单准备、缓存校验和底部缩略图读取移到后台，改善大批量照片加载时的界面停顿。
+- 合并工作区保存请求，缩小缩略图实际位图并限制缓存，降低长批次处理的内存占用。
+- 曝光保留实际小数值，移除 1/3 EV 量化；预览、保存及导出使用同一配方，界面整数标签保持原样。
 
 说明
-- 拍摄时间缺失时使用文件修改时间；相机时钟不同步时无法保证真实事件先后。
+- 人脸分析期间，自动重复筛选、导出、删除缓存及切换工作区仍互斥。正常取消和退出会保存；异常强制终止仍可能丢失尚未落盘的最新操作。
 - 最低 macOS 14.0，仅支持 Apple Silicon。沿用 ad-hoc 签名，尚未提供 Apple Developer ID 签名与公证。
 </description>
-            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.6/WeddingWorkbench-3.6.6-macOS-arm64.zip" length="99427990" type="application/octet-stream" sparkle:edSignature="x5WG7/Xvrn7GDViu66nqBpHFJK/EZHeuGujpVSQA5WFAinSGBhJ7Bqc7YNqGWwvkVVlqtlUNYYdW129YmEQOAQ==" />
+            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.7/WeddingWorkbench-3.6.7-macOS-arm64.zip" length="99478135" type="application/octet-stream" sparkle:edSignature="F8/9Vh8NbJ+u8opDoAWXOB5fgL59Q+czL1hJzft38soW6kv9AoUx1+pz2RPxBKkcZ2Ik/44v4qdyUb2kVjxFCQ==" />
         </item>
     </channel>
 </rss>
