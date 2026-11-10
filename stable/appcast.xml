@@ -3,17 +3,23 @@
     <channel>
         <title>婚礼工作站</title>
         <item>
-            <title>3.6.9</title>
-            <pubDate>Tue, 03 Nov 2026 18:04:50 +0800</pubDate>
+            <title>3.6.10</title>
+            <pubDate>Tue, 10 Nov 2026 17:58:57 +0800</pubDate>
             <sparkle:channel>stable</sparkle:channel>
-            <sparkle:version>3.6.9</sparkle:version>
-            <sparkle:shortVersionString>3.6.9</sparkle:shortVersionString>
+            <sparkle:version>3.6.10</sparkle:version>
+            <sparkle:shortVersionString>3.6.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text">婚礼组图拖拽：竖图拖到另一张单独竖图的左右两侧会并排成一行；拖到行与行之间的缝隙会单独成行，两张竖图可上下排列；拖到图片中间仍为交换。
-照片筛选：删除工作区筛选缓存前增加确认提示，只删本 App 的缓存，不删原片和已导出文件。
+            <description sparkle:format="plain-text">婚礼工作站 3.6.10
+
+- 照片筛选中的比例标题改为“重复照片筛选比例”。
+- 筛选比例支持 0%–100%，每档 10%。0% 不自动筛除重复照片；100% 仍每组至少保留一张。
+- 修复保存 0% 后重新打开工作区被改为 10% 的问题。
+- 人工保留与人工淘汰的结果保持不变。
+
+支持 Apple Silicon，macOS 14.0 及以上。真实界面、在线升级安装与其他设备安装待用户测试。
 </description>
-            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.9/WeddingWorkbench-3.6.9-macOS-arm64.zip" length="99506724" type="application/octet-stream" sparkle:edSignature="cZ3wPHz93Pv9VPKe0AG56gahb6QlDVqo+VHSRysT6eUtZcTqV8+0hRksGQi8VoJrtbwVTTf6uhgnyekArv5iAw==" />
+            <enclosure url="https://github.com/guozuguang123-droid/WeddingWorkbench-Updates/releases/download/v3.6.10/WeddingWorkbench-3.6.10-macOS-arm64.zip" length="99507519" type="application/octet-stream" sparkle:edSignature="mZbyrANSTOmU0/a0uj8FMsSiWc0qCjdeMWGUqJ85ZNhxuQZKJYbe8P+LfNc+o9+JBO5YuySnfM2dGBgPviyCAA==" />
         </item>
     </channel>
 </rss>
